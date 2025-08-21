@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EVADIA — Boletín mensual</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <img src="../assets/logo.png" alt="EVADIA logo">
+      <div>
+        <div class="title" id="titulo">EVADIA — Boletín mensual</div>
+        <div class="h-meta" id="meta">Edición · Sector · Instrumento · Etapa</div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>1) Detectar</h2>
+      <p>Monitoreo diario de DOF, ATDyT, dependencias, congresos, reguladores y NOMs.</p>
+      <div class="kv">
+        <span class="badge"><strong>Sector:</strong> <span id="sector"></span></span>
+        <span class="badge"><strong>Instrumento:</strong> <span id="instrumento"></span></span>
+        <span class="badge"><strong>Etapa:</strong> <span id="etapa"></span></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>2) Clasificar</h2>
+      <p>Clasificación por sector, tipo de instrumento y etapa de avance.</p>
+      <div class="kv">
+        <span class="badge"><strong>Sector:</strong> <span id="sector2"></span></span>
+        <span class="badge"><strong>Tipo de instrumento:</strong> <span id="instrumento2"></span></span>
+        <span class="badge"><strong>Etapa:</strong> <span id="etapa2"></span></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>3) Resumen (qué cambió / impacto / acciones)</h2>
+      <p id="que_cambio"><strong>Qué cambió.</strong> </p>
+      <p id="impacto"><strong>Impacto.</strong> </p>
+      <p id="acciones"><strong>Acciones recomendadas.</strong> </p>
+    </section>
+
+    <section class="card">
+      <h2>4) Checklist operativo</h2>
+      <table class="table" id="tabla-check">
+        <thead>
+          <tr>
+            <th>Tarea</th>
+            <th>Área</th>
+            <th>Responsable</th>
+            <th>Fecha objetivo</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>5) Enlaces a fuente oficial</h2>
+      <ul class="link-list" id="enlaces"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Flujo editorial integrado</h2>
+      <p id="editorial"></p>
+    </section>
+
+    <footer class="footer">
+      © <span id="anio"></span> EVADIA · Boletín informativo (no constituye asesoría legal).
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

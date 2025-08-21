@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "titulo": "EVADIA — Boletín mensual · Energía",
+    "mes": "Agosto",
+    "anio": 2025,
+    "edicion": 1,
+    "sector": "Energía",
+    "tipo_instrumento": "Acuerdo / NOM",
+    "etapa": "Publicación en DOF"
+  },
+  "resumen": {
+    "que_cambio": "Se publicó un acuerdo/modificación relacionada con requisitos técnicos para instalaciones energéticas. El DOF incorporó ajustes en plazos de cumplimiento y documentación exigida.",
+    "impacto": "Empresas del sector energético deberán actualizar procedimientos internos, plantillas documentales y cronogramas de trámites. Riesgo de incumplimiento si no se ajustan expedientes y calendarios.",
+    "acciones": "1) Actualizar matrices de requisitos y responsables. 2) Verificar vigencias en permisos y NOM aplicables. 3) Re-entrenar al equipo operativo y de cumplimiento con cambios clave. 4) Preparar comunicación a proveedores/contratistas."
+  },
+  "checklist": [
+    {
+      "tarea": "Actualizar matriz de requisitos por instalación",
+      "area": "Cumplimiento",
+      "responsable": "J. Pérez",
+      "fecha": "2025-09-05"
+    },
+    {
+      "tarea": "Revisión de permisos vigentes y NOM aplicables",
+      "area": "Legal/Regulatorio",
+      "responsable": "M. López",
+      "fecha": "2025-09-10"
+    },
+    {
+      "tarea": "Ajustar formatos y plantillas de expediente",
+      "area": "Operaciones",
+      "responsable": "Equipo CIS",
+      "fecha": "2025-09-12"
+    },
+    {
+      "tarea": "Capacitar a personal clave (1h)",
+      "area": "RRHH/Compliance",
+      "responsable": "L. García",
+      "fecha": "2025-09-15"
+    }
+  ],
+  "enlaces": [
+    {
+      "label": "Diario Oficial de la Federación (DOF) — publicación relacionada",
+      "url": "https://www.dof.gob.mx/"
+    },
+    {
+      "label": "CNARTyS — Búsqueda por sector/tema",
+      "url": "https://www.gob.mx/conamer/acciones-y-programas/catalogo-nacional-de-regulaciones-tramites-y-servicios-cnartys"
+    },
+    {
+      "label": "CIS COFEPRIS — Información y ventanillas",
+      "url": "https://www.gob.mx/cofepris/acciones-y-programas/centro-integral-de-servicios"
+    }
+  ],
+  "editorial": "Monitoreo del Buscador CNARTyS por sector/tema → cruce con DOF/autoridades sectoriales → Alerta con 'qué cambió/impacto/acciones' → Checklist con base en fichas de trámite y puntos de contacto CIS."
+}
